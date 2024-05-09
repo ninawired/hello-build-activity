@@ -1,0 +1,113 @@
+body {
+    background-color: #edf2f7;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1024px;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* TYPOGRAPHY */
+
+h1 {
+    color: #63b3ed;
+    font-size: 125px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #8594ad;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h2 span {
+    color: #63b3ed;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3,
+.main ul li a {
+    color: #68778d;
+}
+
+footer p {
+    font-style: italic;
+}
+
+
+/* YOUR STYLES */
+
+header {
+    background-color: #fff;
+    margin: 30px;
+    padding: 70px 0 70px 0;
+} 
+
+.banner > div {
+    display: inline-flex;
+}
+
+header .button {
+    background-color: #dd6b20;
+    color: #fff;
+    padding: 7px;
+    margin-left: 20px;
+}
+
+header .button:hover {
+    border: 2px solid #dd6b20;
+    background-color: #fff;
+    color: #8594ad;
+}
+
+.section-columns {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    margin: 0 0 30px 30px;
+}
+
+.section-columns > div {
+    background-color: #fff;
+    width: 300px;
+}
+
+.card-header img {
+    width: 300px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0 45px 0;
+}
+
+.card-body ul li {
+    line-height: 35px;
+}
+
+footer {
+    background-color: #fff;
+    margin: 0 30px 30px 30px;
+    padding: 22px 32px;
+    text-align: left;
+}
